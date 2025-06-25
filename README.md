@@ -68,33 +68,16 @@ To build an intuitive system that estimates housing prices based on key features
 
 ---
 
-## 📡 API Endpoints
-
-### `GET /get_location_names`
-Returns available locations (used for frontend dropdown)
-
-**Response:**
-```json
-{
-  "locations": ["1st Phase JP Nagar", "Whitefield", "Indira Nagar", ...]
-}
-POST /predict_home_price
-Takes form data and returns predicted house price.
-
-Request:
-POST /predict_home_price
-Content-Type: application/x-www-form-urlencoded
-
-total_sqft=1200&location=Whitefield&bhk=2&bath=2
-
-🧪 Local Setup Instructions
+##  🧪 Local Setup Instructions
 1. Clone and Set Up Environment
 git clone https://github.com/yourusername/house-price-prediction.git
 cd house-price-prediction
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate
+
 2. Install Requirements
 pip install -r requirements.txt
+
 3. Run Flask Server
 cd server
 python server.py
@@ -105,6 +88,6 @@ Open client/app.html in your browser.
 
 ---
 
-📬 Contact
+## 📬 Contact
 Raj Aryan
 📧 theraaajj@gmail.com
