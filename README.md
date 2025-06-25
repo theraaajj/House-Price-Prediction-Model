@@ -109,7 +109,7 @@ total_sqft=1200&location=Whitefield&bhk=2&bath=2
 ### 1. Clone and Set Up Environment
 
 ```bash
-git clone https://github.com/yourusername/house-price-prediction.git
+git clone https://github.com/theraaajj/house-price-prediction.git
 cd house-price-prediction
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate
